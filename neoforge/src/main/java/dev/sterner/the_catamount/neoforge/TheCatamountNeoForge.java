@@ -146,7 +146,7 @@ public class TheCatamountNeoForge {
             float newAmount = ModEventHandlers.onLivingDamage(
                     event.getEntity(),
                     event.getSource(),
-                    event.getDamage()
+                    event.getNewDamage()
             );
             event.setNewDamage(newAmount);
         }
